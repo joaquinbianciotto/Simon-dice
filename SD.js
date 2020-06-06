@@ -6,14 +6,25 @@ const btnEmpezar = document.getElementById('btnEmpezar')
 
 class Juego {
     constructor() {
-        this.inicializar()
+        this.initialize()
+        this.generateSequence()
     }
 
-    inicializar() {
+    initialize() {
         btnEmpezar.classList.add('hide')
+        this.nivel = 1
+        this.colores = {
+            celeste,
+            violeta,
+            naranja,
+            verde
+        }
+    }
+    generateSequence(){
+        this.secuencia = new Array(10).fill(0).map(n => Math.floor(Math.random()*5))
     }
 }
 
-function empezarJuego() {
-    let juego = new Juego()
+function empezarJuego() {                 
+    window.juego = new Juego()
 }
