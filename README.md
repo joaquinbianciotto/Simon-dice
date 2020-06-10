@@ -1,2 +1,2 @@
 # Simon-dice
-Simon-dice es un pequeño juego en el cual se iran iluminando una serie de botones los cuales el jugador debera memorizar y repetir para completar el nivel
+Simon say is a little game where the player must memorize and repeat the color sequence to complete the level and aventually win the game
