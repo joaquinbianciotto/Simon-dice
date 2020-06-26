@@ -3,7 +3,8 @@ const violet = document.getElementById('violet')
 const orange = document.getElementById('orange')
 const green = document.getElementById('green')
 const btnstart = document.getElementById('btnstart')
-const last_level = 5
+const difficulty = document.getElementById("difficulty")
+const last_level = difficulty
 
 class game {
     constructor() {
